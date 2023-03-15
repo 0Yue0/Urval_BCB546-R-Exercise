@@ -1,0 +1,17 @@
+---
+title: "Liu_review"
+author: "Yue Liu"
+date: "2023-03-14"
+output: html_document
+---
+
+
+
+# when reading the original data, it failed as no such files were in the working directory. Simply puting the file in your working directory and pushing it to the GitHub repository will work.
+
+# absolute address was included, which caused a failures.
+
+
+# For replacing missing data with ? or -, you first split data based on chromosomes, then you write the command for each splited file and replaced the missing data. I'd recommend you replace the missing data before you split it into groups based on chromosomes. It will save you more time and causes fewer errors.
+
+# For the data visualizing part, hope you could work it out!
